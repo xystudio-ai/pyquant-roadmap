@@ -4,7 +4,6 @@
   <defs>
     <style>
       .bg { fill: #f7faf8; }
-      .line { stroke: #d7e4dc; stroke-width: 1; }
       .title { fill: #111916; font: 800 48px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
       .subtitle { fill: #40534a; font: 400 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
       .small { fill: #587067; font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
@@ -14,6 +13,7 @@
       .panel { fill: #fff; stroke: #cbdcd3; stroke-width: 2; }
       .panel-title { fill: #13231c; font: 800 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
       .panel-text { fill: #587067; font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .arrow { stroke: #146b4d; stroke-width: 4; stroke-linecap: round; fill: none; }
     </style>
     <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
       <path d="M0,0 L12,6 L0,12 Z" fill="#146b4d"/>
@@ -21,11 +21,6 @@
   </defs>
 
   <rect class="bg" width="1280" height="520"/>
-  <g opacity="0.35">
-    <path class="line" d="M80 440 C210 390, 260 410, 390 350 S610 330, 750 270 S965 235, 1135 145"/>
-    <path class="line" d="M80 120 H1200"/>
-    <path class="line" d="M80 400 H1200"/>
-  </g>
 
   <text class="title" x="80" y="92">pyquant-roadmap</text>
   <text class="subtitle" x="80" y="132">Python 量化实战路线图：先跑通，再看懂，再迭代</text>
@@ -40,11 +35,15 @@
     <text class="panel-text" x="28" y="78">按顺序学习，从环境检查到策略复盘</text>
   </g>
 
+  <path class="arrow" d="M420 310 H462" marker-end="url(#arrowhead)"/>
+
   <g transform="translate(480 252)">
     <rect class="panel" x="0" y="0" width="320" height="116" rx="18"/>
     <text class="panel-title" x="28" y="45">一条实操闭环</text>
     <text class="panel-text" x="28" y="78">数据、因子、组合、回测、评估、信号</text>
   </g>
+
+  <path class="arrow" d="M820 310 H862" marker-end="url(#arrowhead)"/>
 
   <g transform="translate(880 252)">
     <rect class="panel" x="0" y="0" width="320" height="116" rx="18"/>
