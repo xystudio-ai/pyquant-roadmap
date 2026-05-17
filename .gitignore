@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.venv/
+
+# Local market data and derived datasets.
+data/sample/*
+data/raw/*
+data/processed/*
+!data/sample/.gitkeep
+!data/sample/assets.parquet
+!data/sample/calendar.parquet
+!data/sample/prices.parquet
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated reports, charts, signals, and experiment outputs.
+outputs/*
+!outputs/.gitkeep

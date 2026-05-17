@@ -1,0 +1,13 @@
+﻿akshare_etf_universe:
+  start_date: "2021-01-01"
+  end_date: "2023-12-31"
+  adjust: "qfq"
+  symbols:
+    - code: "510300"
+      name: "沪深300ETF"
+    - code: "510500"
+      name: "中证500ETF"
+    - code: "159915"
+      name: "创业板ETF"
+    - code: "512100"
+      name: "中证1000ETF"

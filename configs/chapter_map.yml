@@ -1,0 +1,75 @@
+﻿mainline_notebooks:
+  "01":
+    file: "01_quant_workflow_overview.ipynb"
+    title: "量化交易全流程与主线案例"
+    book_chapters:
+      - "什么是量化交易：你到底在做什么"
+      - "主线案例介绍：低频多因子选股策略"
+  "02":
+    file: "02_project_env_first_run.ipynb"
+    title: "环境、项目结构与第一次运行"
+    book_chapters:
+      - "最小可运行环境：让代码先跑起来"
+  "03":
+    file: "03_pandas_numpy_for_quant.ipynb"
+    title: "Python 与数据分析速成"
+    book_chapters:
+      - "Python与数据分析速成：只学够用的部分"
+  "04":
+    file: "04_data_fetch_and_cache.ipynb"
+    title: "数据获取、字段标准化与缓存"
+    book_chapters:
+      - "数据获取：从A股/ETF拿到可用数据"
+  "05":
+    file: "05_data_clean_align_returns.ipynb"
+    title: "数据清洗、对齐与收益率"
+    book_chapters:
+      - "数据清洗与对齐：让时间序列能比较"
+  "06":
+    file: "06_factor_construction.ipynb"
+    title: "因子构建"
+    book_chapters:
+      - "因子构建：从直觉到可计算的特征"
+  "07":
+    file: "07_factor_research_ic_layers.ipynb"
+    title: "因子有效性检验"
+    book_chapters:
+      - "因子有效性检验：在回测前先做“研究回路”"
+  "08":
+    file: "08_portfolio_construction.ipynb"
+    title: "组合构建"
+    book_chapters:
+      - "组合构建：把分数变成持仓"
+  "09":
+    file: "09_backtest_engine_manual_and_bt.ipynb"
+    title: "回测引擎：手写最小口径与 bt 复现"
+    book_chapters:
+      - "回测引擎：把交易规则、成本与撮合落到代码里"
+  "10":
+    file: "10_performance_report_attribution.ipynb"
+    title: "绩效评估、基准对比与策略报告"
+    book_chapters:
+      - "绩效评估与归因：让结果可解释"
+  "11":
+    file: "11_experiment_engineering_pipeline.ipynb"
+    title: "工程化、流水线、实验记录与交易信号"
+    book_chapters:
+      - "迭代与工程化：从一次跑通到可复现迭代"
+  "12":
+    file: "12_strategy_taxonomy.ipynb"
+    title: "策略分类地图"
+    book_chapters:
+      - "策略从结构上怎么分类：新手需要的地图"
+  "13":
+    file: "13_classic_strategies.ipynb"
+    title: "三个经典入门策略"
+    book_chapters:
+      - "三个经典入门策略：只做“代表作”的最小实现"
+  "14":
+    file: "14_ai_helper_and_next_steps.ipynb"
+    title: "AI 辅助、风险规范与下一步"
+    book_chapters:
+      - "AI能增强量化的哪些环节：从“加速器”视角出发"
+      - "AI使用的风险与规范：防止幻觉与信息污染"
+      - "回顾：你已经走完的完整学习路径"
+      - "继续深入的方向"

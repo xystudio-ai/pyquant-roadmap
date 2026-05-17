@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">pyquant-roadmap 项目总览</title>
+  <desc id="desc">Python 量化实战路线图，用 14 个 Notebook 跑通完整入门闭环。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7faf8; }
+      .line { stroke: #d7e4dc; stroke-width: 1; }
+      .title { fill: #111916; font: 800 48px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .subtitle { fill: #40534a; font: 400 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .small { fill: #587067; font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .badge { fill: #173f31; }
+      .badge-text { fill: #fff; font: 700 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .step { fill: #146b4d; font: 700 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .panel { fill: #fff; stroke: #cbdcd3; stroke-width: 2; }
+      .panel-title { fill: #13231c; font: 800 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .panel-text { fill: #587067; font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#146b4d"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1280" height="520"/>
+  <g opacity="0.35">
+    <path class="line" d="M80 440 C210 390, 260 410, 390 350 S610 330, 750 270 S965 235, 1135 145"/>
+    <path class="line" d="M80 120 H1200"/>
+    <path class="line" d="M80 400 H1200"/>
+  </g>
+
+  <text class="title" x="80" y="92">pyquant-roadmap</text>
+  <text class="subtitle" x="80" y="132">Python 量化实战路线图：先跑通，再看懂，再迭代</text>
+
+  <rect class="badge" x="80" y="164" width="152" height="42" rx="21"/>
+  <text class="badge-text" x="108" y="191">当前项目</text>
+  <text class="small" x="252" y="191">用真实样例数据和 Notebook 跑通个人量化研究的最小闭环。</text>
+
+  <g transform="translate(80 252)">
+    <rect class="panel" x="0" y="0" width="320" height="116" rx="18"/>
+    <text class="panel-title" x="28" y="45">14 个 Notebook</text>
+    <text class="panel-text" x="28" y="78">按顺序学习，从环境检查到策略复盘</text>
+  </g>
+
+  <g transform="translate(480 252)">
+    <rect class="panel" x="0" y="0" width="320" height="116" rx="18"/>
+    <text class="panel-title" x="28" y="45">一条实操闭环</text>
+    <text class="panel-text" x="28" y="78">数据、因子、组合、回测、评估、信号</text>
+  </g>
+
+  <g transform="translate(880 252)">
+    <rect class="panel" x="0" y="0" width="320" height="116" rx="18"/>
+    <text class="panel-title" x="28" y="45">读者可独立运行</text>
+    <text class="panel-text" x="28" y="78">开源入口，不依赖后续材料</text>
+  </g>
+
+  <text class="step" x="80" y="445">当前目标：让读者先把完整流程跑起来，再决定下一步深入方向。</text>
+  <text class="small" x="80" y="476">边界：学习与研究演示，不是荐股工具，也不是自动交易系统。</text>
+</svg>

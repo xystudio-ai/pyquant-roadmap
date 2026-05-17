@@ -1,0 +1,12 @@
+﻿start_date: "2021-01-01"
+end_date: "2023-12-31"
+top_n: 3
+rebalance_freq: "M"
+cost_bps: 8
+capital: 1000000
+lot_size: 100
+asset_type: "ETF"
+factor_weights:
+  momentum_60: 0.45
+  low_vol_20: 0.35
+  ma_gap_20_60: 0.20

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+  <title id="title">pyquant-roadmap 实操闭环</title>
+  <desc id="desc">当前项目从数据获取开始，依次经过清洗、因子、组合、回测、评估，最后输出信号与复盘材料。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcfb; }
+      .title { fill: #111916; font: 800 32px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .subtitle { fill: #4b6158; font: 400 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .node { fill: #fff; stroke: #cbdcd3; stroke-width: 2; }
+      .node-alt { fill: #eef8f2; stroke: #99c8b1; stroke-width: 2; }
+      .node-title { fill: #13231c; font: 800 22px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .node-text { fill: #587067; font: 400 14px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .arrow { stroke: #146b4d; stroke-width: 3.5; stroke-linecap: round; fill: none; }
+      .caption { fill: #146b4d; font: 700 16px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+    <marker id="arrowhead" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#146b4d"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1280" height="330"/>
+  <text class="title" x="72" y="56">当前项目：跑通一个可复现的量化实操闭环</text>
+  <text class="subtitle" x="72" y="86">每个 Notebook 只推进一段链路，最终把结果落到 outputs/results/。</text>
+
+  <g transform="translate(72 140)">
+    <rect class="node" x="0" y="0" width="132" height="94" rx="15"/>
+    <text class="node-title" x="44" y="39">数据</text>
+    <text class="node-text" x="27" y="67">获取 / 缓存</text>
+  </g>
+  <path class="arrow" d="M216 187 H259" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(274 140)">
+    <rect class="node-alt" x="0" y="0" width="132" height="94" rx="15"/>
+    <text class="node-title" x="44" y="39">清洗</text>
+    <text class="node-text" x="27" y="67">对齐 / 收益率</text>
+  </g>
+  <path class="arrow" d="M418 187 H461" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(476 140)">
+    <rect class="node" x="0" y="0" width="132" height="94" rx="15"/>
+    <text class="node-title" x="44" y="39">因子</text>
+    <text class="node-text" x="27" y="67">构建 / 检验</text>
+  </g>
+  <path class="arrow" d="M620 187 H663" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(678 140)">
+    <rect class="node-alt" x="0" y="0" width="132" height="94" rx="15"/>
+    <text class="node-title" x="44" y="39">组合</text>
+    <text class="node-text" x="27" y="67">权重 / 调仓</text>
+  </g>
+  <path class="arrow" d="M822 187 H865" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(880 140)">
+    <rect class="node" x="0" y="0" width="132" height="94" rx="15"/>
+    <text class="node-title" x="44" y="39">回测</text>
+    <text class="node-text" x="27" y="67">成本 / 收益</text>
+  </g>
+  <path class="arrow" d="M1024 187 H1067" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(1082 140)">
+    <rect class="node-alt" x="0" y="0" width="132" height="94" rx="15"/>
+    <text class="node-title" x="44" y="39">评估</text>
+    <text class="node-text" x="27" y="67">报告 / 信号</text>
+  </g>
+
+  <text class="caption" x="72" y="286">产出：图表、绩效指标、目标权重、订单建议和复盘材料。</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">量化学习路径</title>
+  <desc id="desc">先跑通、再看懂、再迭代、AI 辅助四阶段学习路径。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7faf8; }
+      .title { fill: #111916; font: 800 34px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .subtitle { fill: #4b6158; font: 400 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .card { fill: #fff; stroke: #cbdcd3; stroke-width: 2; }
+      .card-on { fill: #eef8f2; stroke: #99c8b1; stroke-width: 2.5; }
+      .step { fill: #146b4d; font: 800 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .card-title { fill: #13231c; font: 800 26px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .body { fill: #4f665c; font: 400 16px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+      .arrow { stroke: #146b4d; stroke-width: 4; stroke-linecap: round; fill: none; }
+      .tag { fill: #173f31; }
+      .tag-text { fill: #fff; font: 700 14px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#146b4d"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1280" height="360"/>
+  <text class="title" x="72" y="58">量化学习路径：先建立体感，再逐步深入</text>
+  <text class="subtitle" x="72" y="88">当前仓库只负责第一步，但它必须能独立交付价值。</text>
+
+  <g transform="translate(72 132)">
+    <rect class="card-on" x="0" y="0" width="242" height="154" rx="18"/>
+    <rect class="tag" x="22" y="22" width="82" height="28" rx="14"/>
+    <text class="tag-text" x="39" y="42">当前</text>
+    <text class="step" x="22" y="78">01</text>
+    <text class="card-title" x="64" y="79">先跑通</text>
+    <text class="body" x="22" y="114">用开源项目跑完</text>
+    <text class="body" x="22" y="138">数据到信号的闭环</text>
+  </g>
+  <path class="arrow" d="M335 209 H397" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(416 132)">
+    <rect class="card" x="0" y="0" width="242" height="154" rx="18"/>
+    <text class="step" x="22" y="48">02</text>
+    <text class="card-title" x="64" y="49">再看懂</text>
+    <text class="body" x="22" y="88">系统理解数据、因子、</text>
+    <text class="body" x="22" y="112">回测、评估和风险</text>
+  </g>
+  <path class="arrow" d="M679 209 H741" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(760 132)">
+    <rect class="card" x="0" y="0" width="242" height="154" rx="18"/>
+    <text class="step" x="22" y="48">03</text>
+    <text class="card-title" x="64" y="49">再迭代</text>
+    <text class="body" x="22" y="88">持续阅读论文、因子、</text>
+    <text class="body" x="22" y="112">策略和实验复盘</text>
+  </g>
+  <path class="arrow" d="M1023 209 H1085" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(1104 132)">
+    <rect class="card" x="0" y="0" width="128" height="154" rx="18"/>
+    <text class="step" x="22" y="48">04</text>
+    <text class="card-title" x="22" y="84">AI 辅助</text>
+    <text class="body" x="22" y="118">想法变实验</text>
+  </g>
+</svg>
